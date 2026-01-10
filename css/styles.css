@@ -17,7 +17,33 @@ p {
 ul,
 ol {
   list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
+
+h1 {
+  color: #ffffff;
+  line-height: 1.07;
+  font-size: 56px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+
 
 .logo {
   font-family: 'Raleway', sans-serif;
@@ -66,15 +92,6 @@ address a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #404bbf;
-}
-
-h1 {
-  color: #ffffff;
-  line-height: 1.07;
-  font-size: 56px;
-  font-weight: 700;
-  text-align: center;
-  letter-spacing: 0.02em;
 }
 
 .solutions {
