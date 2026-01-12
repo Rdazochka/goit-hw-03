@@ -91,6 +91,7 @@ p {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-left: 76px;
 }
 
 .nav a {
@@ -100,7 +101,6 @@ p {
 
 .nav ul {
   display: flex;
-  margin-left: 76px;
   gap: 40px;
 }
 
@@ -256,7 +256,7 @@ h1 span {
 
 .our-team li {
   background-color: #ffffff;
-  border-radius: 1px 1px 5px 5px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .our-team .team-card {
@@ -311,6 +311,10 @@ h1 span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+}
+
+.our-portfolio img {
+  display: block;
 }
 
 .portfolio-card {
