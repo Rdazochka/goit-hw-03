@@ -73,6 +73,7 @@ p {
   display: flex;
   padding-bottom: 25px;
   padding-top: 25px;
+  align-items: center;
 }
 
 .page-header {
