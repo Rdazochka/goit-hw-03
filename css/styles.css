@@ -44,12 +44,10 @@ p {
   margin: 0;
 }
 
-.conteiner {
+.container {
   max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 120px;
-  padding-bottom: 120px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -71,7 +69,7 @@ p {
   color: #2e2f42;
 }
 
-.page-header .conteiner {
+.page-header .container {
   display: flex;
   padding-bottom: 25px;
   padding-top: 25px;
@@ -102,7 +100,7 @@ p {
 
 .address {
   display: flex;
-  margin-left: 332px;
+  margin-left: auto;
   gap: 40px;
 }
 
@@ -130,12 +128,18 @@ p {
   padding: 188px 0;
 }
 
-.solutions .conteiner {
+.solutions .container {
   text-align: center;
 }
 
 h1 span {
   display: block;
+}
+
+.solutions h1 {
+  max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .button {
@@ -147,6 +151,8 @@ h1 span {
   font-weight: 500;
   letter-spacing: 0.04em;
   padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
 }
 
 .button:hover {
@@ -164,6 +170,10 @@ h1 span {
   margin-top: 120px;
   gap: 24px;
   margin-bottom: 120px;
+}
+
+.our-features li {
+  width: 264px;
 }
 
 .visually-hidden {
@@ -199,7 +209,7 @@ h1 span {
   background-color: #f4f4fd;
 }
 
-.our-team .conteiner {
+.our-team .container {
   padding-top: 120px;
 }
 
@@ -225,7 +235,6 @@ h1 span {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 
@@ -236,19 +245,34 @@ h1 span {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 32px;
 }
 
 .our-team li {
-  background-color: #ffffff;
   margin-bottom: 120px;
+}
+
+.our-team .team-card {
+  display: block;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 32px 0;
+  border-radius: 1px 1px 5px 5px;
+}
+
+.our-team img {
+  display: block;
 }
 
 .our-portfolio ul {
   display: flex;
-  gap: 24px;
+  row-gap: 48px;
+  column-gap: 24px;
   flex-wrap: wrap;
   margin-bottom: 152px;
+}
+
+.our-portfolio li {
+  width: 360px;
 }
 
 .our-portfolio h2 {
@@ -289,7 +313,7 @@ h1 span {
   padding: 32px 16px;
 }
 
-.footer .conteiner {
+.footer .container {
   padding: 100px 0;
 }
 
